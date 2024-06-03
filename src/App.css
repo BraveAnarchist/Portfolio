@@ -1,0 +1,32 @@
+  .cInner {
+    animation: scroll 40s linear infinite;
+   
+  }
+  
+  .carousel-item {
+    margin-right: 1vw;
+  }
+
+  .picCert img{
+    transition-property: width,height;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+  .picCert img:hover{
+    height: 100%;
+    width: 100%;
+  }
+  .box .btn:hover{
+    background-color: rgba(22, 54, 67, 0.999);
+    cursor:pointer;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } 
+  
